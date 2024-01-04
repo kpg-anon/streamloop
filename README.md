@@ -20,28 +20,28 @@
 
 **posix**
 ```
-	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh
+wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh
 ```
 **python** (requires argparse)
 ```
-	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.py && chmod +x streamloop.py && pip install argparse
+wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.py && chmod +x streamloop.py && pip install argparse
 ```
 2. Modify your [output directory](https://github.com/kpg-anon/streamloop/blob/main/streamloop.sh#L8):
 ```
-	OUTPUT_BASE_PATH=~/path/to/STREAMS
+OUTPUT_BASE_PATH=~/path/to/STREAMS
 ```
 3. Set your [streamlink options](https://github.com/kpg-anon/streamloop/blob/main/streamloop.sh#L10):
 ```
-	STREAMLINK_OPTIONS_TWITCH='--twitch-proxy-playlist=https://eu2.luminous.dev --twitch-proxy-playlist-fallback --twitch-disable-ads'
-	STREAMLINK_OPTIONS_AFREECATV='--stream-segment-timeout 90'
+STREAMLINK_OPTIONS_TWITCH='--twitch-proxy-playlist=https://eu2.luminous.dev --twitch-proxy-playlist-fallback --twitch-disable-ads'
+STREAMLINK_OPTIONS_AFREECATV='--stream-segment-timeout 90'
 ```
 ## 🧑‍💻 Usage 💻
 ```
-	Usage: ./streamloop.sh -p <platform> -u <username> [-q <quality>] [-r <retry>]
-  		-p  Platform (twitch or afreecatv)
-		-u  Username on the platform
-		-q  Quality of the stream (default: best)
-		-r  Retry interval in seconds (default: 180)
+Usage: ./streamloop.sh -p <platform> -u <username> [-q <quality>] [-r <retry>]
+  -p  Platform (twitch or afreecatv)
+	-u  Username on the platform
+	-q  Quality of the stream (default: best)
+	-r  Retry interval in seconds (default: 180)
 ```
 ## 📖 Additional Resources 💡
 Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol?tab=readme-ov-file#installation) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
