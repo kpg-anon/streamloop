@@ -9,7 +9,7 @@
 - unix
 - python
 - [streamlink](https://github.com/streamlink/streamlink)
-## Supported sites
+## 📡 Supported sites 🌎
  - [x] **twitch**
  - [x] **afreecatv**
  - [ ] ~~**kick**~~ <small>coming soon™</small>
