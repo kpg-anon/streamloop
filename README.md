@@ -39,10 +39,10 @@ STREAMLINK_OPTIONS_AFREECATV='--stream-segment-timeout 90'
 ## 🧑‍💻 Usage 💻
 ```
 Usage: ./streamloop.sh -p <platform> -u <username> [-q <quality>] [-r <retry>]
-  -p  Platform (twitch or afreecatv)
-	-u  Username on the platform
-	-q  Quality of the stream (default: best)
-	-r  Retry interval in seconds (default: 180)
+ -p  Platform (twitch or afreecatv)
+ -u  Username on the platform
+ -q  Quality of the stream (default: best)
+ -r  Retry interval in seconds (default: 180)
 ```
 ## 📖 Additional Resources 💡
 Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol?tab=readme-ov-file#installation) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
