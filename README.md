@@ -10,20 +10,19 @@
 - python
 - [streamlink](https://github.com/streamlink/streamlink)
 ## 📡 Supported sites 🌎
- - [x] **twitch**
- - [x] **afreecatv**
- - [ ] ~~**kick**~~ <small>coming soon™</small>
- - [ ] ~~**chzzk**~~ <small>coming soon™</small>
- - [ ] ~~**youtube**~~ <small>coming soon™</small>
+- [x] **twitch**
+- [x] **afreecatv**
+- [ ] ~~**kick**~~ <small>coming soon™</small>
+- [ ] ~~**chzzk**~~ <small>coming soon™</small>
+- [ ] ~~**youtube**~~ <small>coming soon™</small>
 ## 🌐 Installation 🗃
 1. Download the script and make it executable:
-	```
-	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh
-	```
+**posix**
+	`wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh`
+**python** (*requires argparse)
+	`wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.py && chmod +x streamloop.py && pip install argparse`
 2. Modify your [output directory](https://github.com/kpg-anon/streamloop/blob/main/streamloop.sh#L8):
-	```
-	OUTPUT_BASE_PATH=~/path/to/STREAMS
-	```
+	`OUTPUT_BASE_PATH=~/path/to/STREAMS`
 3. Set your [streamlink options](https://github.com/kpg-anon/streamloop/blob/main/streamloop.sh#L10):
 	```
 	STREAMLINK_OPTIONS_TWITCH='--twitch-proxy-playlist=https://eu2.luminous.dev --twitch-proxy-playlist-fallback --twitch-disable-ads'
@@ -40,5 +39,5 @@
 ## 📖 Additional Resources 💡
 Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol?tab=readme-ov-file#installation) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
 ## 📝 TODO ✅
-- [ ] create python version
+- [x] ~~create python version~~
 - [ ] add support for kick, chzzk and youtube
