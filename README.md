@@ -32,7 +32,7 @@
 		-r  Retry interval in seconds (default: 180)
 ```
 ## 📖 Additional Resources 💡
-Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol) Twitch extractor. You'll want to install that in order to block ads from your recordings.
+Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
 ## 📝 TODO ✅
 - [ ] create python version
 - [ ] add support for kick and chzzk
