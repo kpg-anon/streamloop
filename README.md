@@ -2,7 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:9146ff,100:BD93F9&text=Streamloop&fontColor=9146ff&strokeWidth=1&stroke=000000&fontSize=100&textBg=false&reversal=false&descAlignY=81&descAlign=50&animation=fadeIn"/>
 </p>
 <p align='center'> 
-  <em>Continuously monitors a livestream channel and records when it starts</em>
+  <em>Streamloop is a command line tool that uses streamlink to actively monitor a channel URL and begin recording as soon as it goes live.</em>
 </p>
 
 ## 📦 Requirements 🛠️
