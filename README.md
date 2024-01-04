@@ -17,10 +17,12 @@
 - [ ] ~~**youtube**~~ <small>coming soon™</small>
 ## 🌐 Installation 🗃
 1. Download the script and make it executable:
+
 **posix**
 ```
 	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh
 ```
+
 **python** (requires argparse)
 ```
 	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.py && chmod +x streamloop.py && pip install argparse
