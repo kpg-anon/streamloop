@@ -2,7 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:9146ff,100:BD93F9&text=Streamloop&fontColor=9146ff&strokeWidth=1&stroke=000000&fontSize=100&textBg=false&reversal=false&descAlignY=81&descAlign=50&animation=fadeIn"/>
 </p>
 <p align='center'> 
-  <em>Streamloop is a command line tool that uses streamlink to actively monitor a channel URL and begin recording as soon as it goes live.</em>
+  <em>Streamloop is a cli tool that uses streamlink to actively monitor and record a channel when it goes live.</em>
 </p>
 
 ## 📦 Requirements 🛠️
@@ -17,12 +17,10 @@
 - [ ] ~~**youtube**~~ <small>coming soon™</small>
 ## 🌐 Installation 🗃
 1. Download the script and make it executable:
-
 **posix**
 ```
 	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.sh && chmod +x streamloop.sh
 ```
-
 **python** (requires argparse)
 ```
 	wget https://github.com/kpg-anon/streamloop/raw/main/streamloop.py && chmod +x streamloop.py && pip install argparse
