@@ -9,6 +9,12 @@
 - unix
 - python
 - [streamlink](https://github.com/streamlink/streamlink)
+## Supported sites
+ - **twitch**
+ - **afreecatv**
+ - ~~**kick**~~
+ - ~~**chzzk**~~
+ - ~~**youtube**~~
 ## 🌐 Installation 🗃
 1. Download the script and make it executable:
 	```
@@ -35,4 +41,4 @@
 Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
 ## 📝 TODO ✅
 - [ ] create python version
-- [ ] add support for kick and chzzk
+- [ ] add support for kick, chzzk and youtube
