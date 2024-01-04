@@ -10,11 +10,11 @@
 - python
 - [streamlink](https://github.com/streamlink/streamlink)
 ## Supported sites
- - **twitch**
- - **afreecatv**
- - ~~**kick**~~
- - ~~**chzzk**~~
- - ~~**youtube**~~
+ - [x] **twitch**
+ - [x] **afreecatv**
+ - [ ] ~~**kick**~~ <small>coming soon™</small>
+ - [ ] ~~**chzzk**~~ <small>coming soon™</small>
+ - [ ] ~~**youtube**~~ <small>coming soon™</small>
 ## 🌐 Installation 🗃
 1. Download the script and make it executable:
 	```
@@ -38,7 +38,7 @@
 		-r  Retry interval in seconds (default: 180)
 ```
 ## 📖 Additional Resources 💡
-Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
+Currently the script is preconfigured to work with the custom [streamlink-ttvlol](https://github.com/2bc4/streamlink-ttvlol?tab=readme-ov-file#installation) Twitch extractor. You'll want to install that in order to block ads from your Twitch recordings.
 ## 📝 TODO ✅
 - [ ] create python version
 - [ ] add support for kick, chzzk and youtube
